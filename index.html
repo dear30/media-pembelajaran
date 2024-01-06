@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/welcome.css">
+    <title>Welcome</title>
+</head>
+
+<body onload="move()">
+    <div class="image">
+        <div class="logo">
+            <span id="uad"><img src="assets/logo/logo uad.png" alt=""></span>
+            <span id="fai"> <img src="assets/logo/logofai.png" alt=""></span>
+        </div>
+        <div id="myProgress">
+            <div id="myBar">
+                <div id="icon"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+    <script>
+        function move() {
+            var elem = document.getElementById("myBar");
+            var width = 0;
+            var id = setInterval(frame, 250);
+            function frame() {
+                if (width >= 100) {
+                    clearInterval(id);
+                    window.location.href = 'index-1.html';
+                } else {
+                    width++;
+                    elem.style.width = width + '%';
+                }
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
