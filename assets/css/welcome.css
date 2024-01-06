@@ -20,7 +20,7 @@ body{
     width: 100px;
 }
 .image{
-    background-image: url("/assets/welcome/welcomepc.png");
+    background-image: url("https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/welcomepc.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .image {
-            background-image: url("/assets/welcome/welcomehp.png");
+            background-image: url("https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/welcomehp.png");
             background-repeat: no-repeat;
             background-position: right top;
             background-attachment: fixed;
@@ -64,7 +64,7 @@ body{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .image {
-            background-image: url("/assets/welcome/welcomehp.png");
+            background-image: url("https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/welcomehp.png");
             background-repeat: no-repeat;
             background-position: right top;
             background-attachment: fixed;
@@ -96,7 +96,7 @@ body{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .image {
-            background-image: url("/assets/welcome/welcometablet.png");
+            background-image: url("https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/welcometablet.png");
             background-repeat: no-repeat;
             background-position: right top;
             background-attachment: fixed;
@@ -112,7 +112,7 @@ body{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .image {
-            background-image: url("/assets/welcome/welcometablet.png");
+            background-image: url("https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/welcometablet.png");
             background-repeat: no-repeat;
             background-position: top;
             background-attachment: fixed;
@@ -130,7 +130,7 @@ body{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .image {
-            background-image: url("/assets/welcome/welcomepc.png");
+            background-image: url("https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/welcomepc.png");
             background-repeat: no-repeat;
             background-position: center;
             background-attachment: fixed;
@@ -164,7 +164,7 @@ body{
     top: 0;
     height: 50px;
     width: 50px;
-    background-image: url('/assets/welcome/85-camel-walking-cute.gif');
+    background-image: url('https://raw.githubusercontent.com/dear30/media-pembelajaran/main/assets/welcome/85-camel-walking-cute.gif');
     background-size: cover;
 }
 button{
